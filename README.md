@@ -11,11 +11,9 @@ You can download our A-AVA dataset from
 
 ### A-AVA Dataset Structure
 
-
-### Parameters
-The interface has the following configuration parameters:
+The A-AVA dataset has the following structures:
 ```
-data_val = {1230(video_id):
+data_val = {1230(video id):
                 {'video_info': 
                                 {'video_id': 1230,
                                 'width': 1280,
@@ -23,14 +21,14 @@ data_val = {1230(video_id):
                                 'video_path': 'val/AVA/keUOiCcHtoQ_scene_28_124948-125707'
                                 },
                     'img_info':
-                                {47560:  
+                                {47560 (image id):  
                                     {'img_path': 'val/AVA/keUOiCcHtoQ_scene_28_124948-125707/frame0051.jpg',
                                     'frame': 50},
                                 ...
                                 }
                     'obj_info':
-                                {47560: 
-                                    {0: 
+                                {47560 (image id): 
+                                    {0 (object id): 
                                         {'bbox': (154, 79, 341, 281), 
                                         'image_id': 47560, 
                                         'action': [14]},
@@ -40,7 +38,7 @@ data_val = {1230(video_id):
         ...
         }
 ```
-*'video_id'*. Each video clip has an ID.<br/>
+
 
 
 
