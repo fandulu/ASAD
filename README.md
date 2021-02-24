@@ -2,7 +2,10 @@
 
 ## Datasets
 
-### A-AVA Dataset
+### A-AVA Dataset Download
+
+Our A-AVA dataset is extended from the AVA dataset [http://research.google.com/ava/] and the TAO dataset [https://taodataset.org/]. For more details and copyrights, please refer to their webpages.
+
 You can download our A-AVA dataset from 
 [Download](https://drive.google.com/file/d/19p84A5rZUGtExpWnwLVc7n4sgypvITIt/view?usp=sharing)
 
