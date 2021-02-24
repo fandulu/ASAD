@@ -8,7 +8,7 @@ The success of deep learning on video Action Recognition (AR) has motivated rese
 
 ## A-AVA Datasets
 
-We create a new A-AVA dataset based on existing [AVA dataset] (http://research.google.com/ava/) and the [TAO dataset] (https://taodataset.org/), by assigning the unique actor identity and actions to each actor.
+We create a new A-AVA dataset based on existing [AVA dataset](http://research.google.com/ava/) and the [TAO dataset](https://taodataset.org/), by assigning the unique actor identity and actions to each actor.
 
 <p align="center">
   <img src="docs/A-AVA.png">
@@ -17,7 +17,7 @@ We create a new A-AVA dataset based on existing [AVA dataset] (http://research.g
 
 ### A-AVA Dataset Download
 
-Our A-AVA dataset is extended from the [AVA dataset] (http://research.google.com/ava/) and the [TAO dataset] (https://taodataset.org/). For more details and copyrights, please refer to their webpages.
+Our A-AVA dataset is extended from the [AVA dataset](http://research.google.com/ava/) and the [TAO dataset](https://taodataset.org/). For more details and copyrights, please refer to their webpages.
 
 You can download our A-AVA dataset from 
 [Download](https://drive.google.com/file/d/19p84A5rZUGtExpWnwLVc7n4sgypvITIt/view?usp=sharing)
