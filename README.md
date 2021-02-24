@@ -1,7 +1,4 @@
-# ASAD
-
-# Actor-identified Spatiotemporal Action Detection
-
+# Actor-identified Spatiotemporal Action Detection (ASAD)
 
 ## Datasets
 
@@ -39,12 +36,17 @@ data_val = {1230(video id):
         }
 ```
 
-
-
+To do the evaluation, the output should have the same format as the above example.
 
 ## Quantitative evaluation
 
-Our quantitative evaluation includes We provide the evaluation scripts as example.
+We provide the evaluation scripts. Which can be run by
+
+```
+python run_evaluation.py \
+--pred_file A-AVA/action_pred_val.pickle \
+--true_file A-AVA/action_anno_val.pickle
+```
 
 <a name="license"></a>
 ## License
