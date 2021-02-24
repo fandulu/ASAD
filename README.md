@@ -27,7 +27,7 @@ AVA/
 
 The A-AVA dataset annotation has the following structures:
 ```
-data_val = {1230(video id):
+action_anno_val = {1230(video id):
                 {'video_info': 
                                 {'video_id': 1230,
                                 'width': 1280,
