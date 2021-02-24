@@ -10,8 +10,22 @@ You can download our A-AVA dataset from
 [Download](https://drive.google.com/file/d/19p84A5rZUGtExpWnwLVc7n4sgypvITIt/view?usp=sharing)
 
 ### A-AVA Dataset Structure
+After donwloading A-AVA dataset, you can unzip it to generate following data.
+```
+AVA/
+|-- action_anno_train.pickle
+|-- action_anno_val.pickle
+|-- train
+|   |-- AVA
+|   |   |-- 5BDj0ow5hnA_scene_13_61290-62898
+|   |   |   |-- frame0301.jpg   
+|-- val
+|   |-- AVA
+|   |   |-- 7YpF6DntOYw_scene_3_32470-33281
+|   |   |   |-- frame0001.jpg   
+```
 
-The A-AVA dataset has the following structures:
+The A-AVA dataset annotation has the following structures:
 ```
 data_val = {1230(video id):
                 {'video_info': 
@@ -39,7 +53,7 @@ data_val = {1230(video id):
         }
 ```
 
-To do the evaluation, the output should have the same format as the above example.
+To do the evaluation, the output should have the same format as the above example. Make your result as action_pred_val.pickle and put it under A-AVA folder.
 
 ## Quantitative evaluation
 
