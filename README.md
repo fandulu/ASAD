@@ -51,6 +51,11 @@ python run_evaluation.py \
 --true_file A-AVA/action_anno_val.pickle
 ```
 
+The results will be illustrated as
+```
+mAP@.50IoU: xxx,  IDF1: xxx,   MT: xxx, ML: xxx, ID s.w.: xxx,   HL: xxx
+```
+
 <a name="license"></a>
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
