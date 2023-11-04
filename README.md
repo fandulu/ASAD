@@ -83,6 +83,16 @@ The results will be illustrated as
 mAP@.50IoU: xxx,  IDF1: xxx,   MT: xxx, ML: xxx, ID s.w.: xxx,   HL: xxx
 ```
 
+## Citation
+```
+@article{yang2022actoridentified,
+  title   = {Actor-identified Spatiotemporal Action Detection - Detecting Who Is Doing What in Videos},
+  author  = {Fan Yang and Norimichi Ukita and Sakriani Sakti and Satoshi Nakamura},
+  year    = {2022},
+  journal = {arXiv preprint arXiv: Arxiv-2208.12940}
+}
+```
+
 <a name="license"></a>
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
