@@ -1,4 +1,4 @@
-# Actor-identified Spatiotemporal Action Detection (ASAD)
+# [Actor-identified Spatiotemporal Action Detection (ASAD)](https://arxiv.org/pdf/2208.12940.pdf)
 
 The success of deep learning on video Action Recognition (AR) has motivated researchers to progressively promote related tasks from the coarse level to the fine-grained level. Compared with conventional AR that only predicts an action label for the entire video, Temporal Action Detection (TAD) has been investigated for estimating the start and end time for each action in videos. Taking TAD a step further, Spatiotemporal Action Detection (SAD) has been studied for localizing the action both spatially and temporally in videos. However, who performs the action, is generally ignored in SAD, while identifying the actor could also be important. To this end, we propose a novel task, Actor-identified Spatiotemporal Action Detection (ASAD), to bridge the gap between SAD and actor identification.
 <p align="center">
